@@ -1,0 +1,43 @@
+{
+    "name": "@tripteki/typescriptjs-foundation",
+    "version": "1.0.5",
+    "description": "Trip Teknologi's Codebase Convention",
+
+    "license": "MIT",
+    "author": "Trip Teknologi <tripteki.company@gmail.com>",
+    "homepage": "https://github.com/tripteki/typescriptjs-foundation",
+    "bugs": { "url": "https://github.com/tripteki/typescriptjs-foundation/issues" },
+
+    "dependencies": {
+
+        "typescript": "^4.9.3",
+        "ts-node": "^10.9.1",
+        "ts-loader": "^9.4.1",
+        "tsconfig-paths": "^4.1.0",
+        "@types/node": "^18.10.8"
+    },
+
+    "devDependencies": {},
+
+    "peerDependencies": {
+
+        "typescript": ">= 4"
+    },
+
+    "files": [
+
+        "tsconfig.json"
+    ],
+
+    "directories": {},
+
+    "bin": {},
+
+    "main": "tsconfig.json",
+
+    "publishConfig": {
+
+        "scope": "@tripteki",
+        "access": "public"
+    }
+}
